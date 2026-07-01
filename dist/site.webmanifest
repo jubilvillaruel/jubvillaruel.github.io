@@ -1,0 +1,23 @@
+{
+  "name": "Jubil Reign Villaruel Portfolio",
+  "short_name": "Jub Portfolio",
+  "description": "Portfolio of Jubil Reign Villaruel, a Cebu-based software engineer, WordPress developer, and SEO specialist.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f4eee5",
+  "theme_color": "#f4eee5",
+  "icons": [
+    {
+      "src": "/favicon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
+
