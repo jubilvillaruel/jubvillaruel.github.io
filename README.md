@@ -18,9 +18,16 @@ npm run preview
 
 ## Deployment Notes
 
-This project is ready for GitHub as a new repository. Before publishing, update any final live-domain metadata if needed.
+This project is configured for GitHub Pages at:
 
-If deploying to a root domain such as `https://yourdomain.com`, the current Vite config is fine.
+```text
+https://jubilvillaruel.github.io/jubvillaruel.github.io/
+```
 
-If deploying to GitHub Pages under a repository path such as `https://username.github.io/repository-name/`, set the Vite `base` option to `"/repository-name/"` in `vite.config.ts` before building.
+The matching Vite `base` is set in `vite.config.ts`:
 
+```ts
+base: '/jubvillaruel.github.io/'
+```
+
+If this portfolio later moves to a root domain such as `https://jubilvillaruel.com`, remove the `base` option or set it to `/`.
